@@ -33,7 +33,8 @@ body{ margin: 0px; text-align: center;font-family:Arial; }
 #menu > a:hover{
 	color:#fff;
 	}
-#contents{ margin-top: 230px; }
+.ub{color:#009;text-align:center;}
+#contents{ margin-top: 230px; text-align:center;}
 
 @keyframes animate-background {
 	from { background-position: 0px 0px; } 
@@ -44,3 +45,22 @@ body{ margin: 0px; text-align: center;font-family:Arial; }
 	50%{color:#00f;}
 	100%{color:#0f0;}
 	}
+#text-contents{
+	font-family:Comic sans ms;
+}
+#youimg{
+	width:100px;
+	height:52px;
+}
+#beg{
+	color:#f00;
+}
+#footer{
+	height:100%;
+	background:#000;
+	color:#999;
+	margin-top:25%;
+}
+#social{
+	margin-bottom:20px;
+}
