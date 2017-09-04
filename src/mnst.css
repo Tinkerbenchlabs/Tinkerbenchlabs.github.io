@@ -1,7 +1,7 @@
 .heading{font-size:60px;font-weight:bold; }
 
 
-body{ margin: 0px; text-align: center;font-family:Arial; }
+body{ margin: 0px; text-align: center;font-family:Arial;background-image:url(.\img\icon.png);background-repeat:no-repeat; }
 #header{
 	animation:animate-background linear 15s infinite,ccolor linear 3s infinite;
 	position: fixed;
