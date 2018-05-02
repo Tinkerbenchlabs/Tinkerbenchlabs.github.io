@@ -27,7 +27,7 @@ body{ margin: 0px; text-align: center;font-family:Arial;background-image:url(.\i
 	text-decoration: none;
 	color: #999;
 	outline: none;
-	padding:10%;
+	padding:5%;
 	transition: color 0.3s linear 0s;
 }
 #menu > a:hover{
@@ -56,10 +56,11 @@ body{ margin: 0px; text-align: center;font-family:Arial;background-image:url(.\i
 	color:#f00;
 }
 #footer{
+	position fixed;
+	bottom:0;
 	height:100%;
 	background:#000;
 	color:#999;
-	margin-top:25%;
 }
 #social{
 	margin-bottom:20px;

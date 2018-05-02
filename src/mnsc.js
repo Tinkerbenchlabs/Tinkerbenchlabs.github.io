@@ -4,6 +4,7 @@ function yScroll(){
 	pagetop = document.getElementById('header');
 	menu = document.getElementById('menu');
 	yPos = window.pageYOffset;
+	//document.getElementById('yval').innerHTML = yPos;
 	if(yPos > 70){
 		pagetop.style.height = "0px";
 		pagetop.style.paddingTop = "50px";
@@ -15,3 +16,7 @@ function yScroll(){
 	}
 }
 window.addEventListener("scroll", yScroll);
+function scrl(){
+	window.scrollBy(0,document.getElementById('footer').offsetTop);;
+	return false;
+}
